@@ -1,0 +1,30 @@
+@media (min-width: 1024px) {
+
+    footer:after{
+        background-image: url('img/BlueShape1_GD.svg');
+        bottom: 0;
+        width: 682px;
+        height: 696px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    h1{
+        font-size: 25px;
+    }
+
+    header:after{
+        background-image: url('img/BlueShape1_MY.svg');
+        top: 0;
+        right: 0;
+        width: 295px;
+        height: 295px;
+    }
+
+    .animation p{
+        font-size: 20px;
+    }
+
+}

@@ -31,6 +31,11 @@ h1 span{
 	font-weight: 600;
 }
 
+h1, p, img{
+	position: relative;
+	z-index: 1;
+}
+
 .animation p{
 	font-size: 40px;
 	text-transform: uppercase;
@@ -47,9 +52,10 @@ footer{
 	position: relative;
 }
 
-footer .blueshape img{
-	position: absolute;
-	bottom: 0;
+header:after, footer:after{
+	content:"";
+    position: absolute;
+	background-repeat: no-repeat;
 }
 
 @keyframes defilement {
