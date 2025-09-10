@@ -1,10 +1,10 @@
 @media (min-width: 1024px) {
 
     footer:after{
-        background-image: url('img/BlueShape1_GD.svg');
+        background-image: url('img/Forme-Bleu-Grand.svg');
         bottom: 0;
-        width: 682px;
-        height: 696px;
+        width: 913px;
+        height: 913px;
     }
 
 }
@@ -20,11 +20,11 @@
     }
 
     header:after{
-        background-image: url('img/BlueShape1_MY.svg');
+        background-image: url('img/Forme-Bleu-Moyen.svg');
         top: 0;
         right: 0;
-        width: 295px;
-        height: 295px;
+        width: 317px;
+        height: 317px;
     }
 
     .animation p{
