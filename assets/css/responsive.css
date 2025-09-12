@@ -1,10 +1,21 @@
 @media (min-width: 1024px) {
 
     footer:after{
-        background-image: url('img/Forme-Bleu-Grand.svg');
+        background-image: url('img/BlueShape1_GD.svg');
         bottom: 0;
-        width: 913px;
-        height: 913px;
+        width: 682px;
+        height: 696px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    footer:after{
+        background-image: url('img/BlueShape1_GD2.svg');
+        bottom: 0;
+        width: 682px;
+        height: 752px;
     }
 
 }
@@ -20,11 +31,11 @@
     }
 
     header:after{
-        background-image: url('img/Forme-Bleu-Moyen.svg');
+        background-image: url('img/BlueShape1_MY.svg');
         top: 0;
         right: 0;
-        width: 317px;
-        height: 317px;
+        width: 295px;
+        height: 296px;
     }
 
     .content{
